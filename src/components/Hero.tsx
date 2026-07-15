@@ -5,7 +5,7 @@ export default function Hero() {
       <div className="absolute inset-0 z-0">
         <div className="absolute inset-0 bg-gradient-to-r from-[#0B2428] via-[#0B2428]/90 to-transparent z-10" />
         <img 
-          src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&q=80&w=2000" 
+          src="https://picsum.photos/seed/luxuryfashion/2000/1000" 
           alt="Luxury Fashion" 
           className="w-full h-full object-cover object-center opacity-40"
         />

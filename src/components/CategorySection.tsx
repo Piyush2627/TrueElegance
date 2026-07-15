@@ -2,17 +2,17 @@ const categories = [
   {
     title: 'Cosmetics',
     description: 'Radiant beauty essentials.',
-    image: 'https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&q=80&w=800',
+    image: 'https://picsum.photos/seed/cosmetics/800/800',
   },
   {
     title: 'Jewellery',
     description: 'Timeless luxury pieces.',
-    image: 'https://images.unsplash.com/photo-1515562141207-7a88cb7ce338?auto=format&fit=crop&q=80&w=800',
+    image: 'https://picsum.photos/seed/jewellery/800/800',
   },
   {
     title: 'Clothing',
     description: 'Premium everyday wear.',
-    image: 'https://images.unsplash.com/photo-1539008835657-9e8e9680c956?auto=format&fit=crop&q=80&w=800',
+    image: 'https://picsum.photos/seed/clothing/800/800',
   }
 ];
 

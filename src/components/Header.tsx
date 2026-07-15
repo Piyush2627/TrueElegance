@@ -11,10 +11,7 @@ export default function Header() {
           
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center cursor-pointer">
-            <div className="text-center">
-              <h1 className="font-serif text-2xl tracking-widest leading-none font-bold">TRUE</h1>
-              <span className="font-sans text-[10px] tracking-[0.3em] uppercase text-[#E8AD85]">Elegance</span>
-            </div>
+            <img src="/logo1.jpg" alt="True Elegance" className="h-12 w-auto object-contain rounded-md" />
           </div>
 
           {/* Desktop Navigation */}

@@ -56,7 +56,7 @@ export default function FeaturedProducts() {
                     <span className="text-xs text-gray-500 ml-2">({product.rating})</span>
                   </div>
                   <span className="font-sans font-medium text-lg text-[#0B2428]">
-                    ${product.price.toFixed(2)}
+                    ₹{product.price.toFixed(2)}
                   </span>
                 </div>
               </div>

@@ -8,8 +8,7 @@ export default function Footer() {
           
           <div className="col-span-1 md:col-span-1">
             <div className="text-left mb-6">
-              <h1 className="font-serif text-2xl tracking-widest leading-none font-bold">TRUE</h1>
-              <span className="font-sans text-[10px] tracking-[0.3em] uppercase text-[#E8AD85]">Elegance</span>
+              <img src="/logo1.jpg" alt="True Elegance" className="h-20 w-auto object-contain rounded-md" />
             </div>
             <p className="text-sm text-[#CD8E63]/80 leading-relaxed mb-4">
               Curating the finest in luxury cosmetics, exquisite jewellery, and premium clothing for the modern individual.

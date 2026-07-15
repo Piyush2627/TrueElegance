@@ -4,7 +4,7 @@ export default function PromoBanner() {
       <div className="absolute inset-0 z-0">
         <div className="absolute inset-0 bg-[#0B2428]/80 z-10"></div>
         <img 
-          src="https://images.unsplash.com/photo-1542295669297-4d352b042bca?auto=format&fit=crop&q=80&w=2000" 
+          src="https://picsum.photos/seed/salepromo/2000/1000" 
           alt="Sale Banner" 
           className="w-full h-full object-cover object-center grayscale opacity-50"
         />
@@ -27,7 +27,7 @@ export default function PromoBanner() {
         <div className="hidden md:block w-1/3 relative">
            <div className="absolute inset-0 border-2 border-[#CD8E63] transform translate-x-4 -translate-y-4"></div>
            <img 
-            src="https://images.unsplash.com/photo-1618002631557-0ceb68a83d78?auto=format&fit=crop&q=80&w=800"
+            src="https://picsum.photos/seed/fashionmodel/800/1000"
             alt="Fashion Model"
             className="relative z-10 w-full h-auto shadow-2xl"
            />
