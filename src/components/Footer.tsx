@@ -37,15 +37,17 @@ export default function Footer() {
           </div>
 
           <div>
-            <h4 className="font-serif font-semibold text-lg mb-4 text-[#E8AD85]">Payment Details</h4>
+            <h4 className="font-serif font-semibold text-lg mb-4 text-[#E8AD85]">Banking Details</h4>
             <ul className="space-y-3 text-sm text-[#CD8E63]/80">
-              <li className="flex flex-col">
-                <span className="text-[#E8AD85] font-semibold mb-1">Bank Transfer:</span>
-                <span className="font-mono text-xs">IFSC: KKBK0001767</span>
-                <span className="font-mono text-xs">A/C: 7038689547</span>
+              <li className="flex flex-col mb-4">
+                <span className="font-semibold mb-2 block text-[#E8AD85]">NEFT / IMPS / RTGS:</span>
+                <span className="mb-1"><strong className="text-white font-medium">Bank:</strong> Kotak Mahindra Bank</span>
+                <span className="mb-1"><strong className="text-white font-medium">A/C Name:</strong> True Elegance</span>
+                <span className="mb-1 font-mono"><strong className="text-white font-medium font-sans">A/C No:</strong> 7038689547</span>
+                <span className="font-mono"><strong className="text-white font-medium font-sans">IFSC:</strong> KKBK0001767</span>
               </li>
-              <li className="mt-4">
-                <span className="text-[#E8AD85] font-semibold mb-2 block">UPI Payment:</span>
+              <li className="pt-2 border-t border-[#CD8E63]/20">
+                <span className="text-[#E8AD85] font-semibold mb-3 mt-2 block">UPI Payment (Scan & Pay):</span>
                 <div className="bg-white p-2 inline-block rounded-md shadow-lg border border-[#CD8E63]/30">
                   <img src="/phonepe_qr.png" alt="PhonePe QR Code" className="w-24 h-24 object-cover" />
                 </div>
