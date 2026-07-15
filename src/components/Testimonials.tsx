@@ -6,7 +6,7 @@ const reviews = [
     name: 'Eleanor Vance',
     role: 'Fashion Editor',
     content: 'The attention to detail in their jewellery collection is simply unmatched. True Elegance has redefined what accessible luxury means to me.',
-    avatar: 'https://picsum.photos/seed/avatar1/200/200',
+    avatar: '/avatar_1.png',
     rating: 5,
   },
   {
@@ -14,7 +14,7 @@ const reviews = [
     name: 'Marcus Sterling',
     role: 'Entrepreneur',
     content: 'I purchased a tailored suit and a timepiece. The quality exceeded my expectations. A seamless shopping experience from start to finish.',
-    avatar: 'https://picsum.photos/seed/avatar2/200/200',
+    avatar: '/avatar_2.png',
     rating: 5,
   },
   {
@@ -22,7 +22,7 @@ const reviews = [
     name: 'Sophia Laurent',
     role: 'Beauty Influencer',
     content: 'Their cosmetics line is a revelation. The serum feels incredibly luxurious on the skin. I highly recommend True Elegance to all my followers.',
-    avatar: 'https://picsum.photos/seed/avatar3/200/200',
+    avatar: '/avatar_1.png',
     rating: 4,
   }
 ];

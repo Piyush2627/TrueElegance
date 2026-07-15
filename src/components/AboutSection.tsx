@@ -7,7 +7,7 @@ export default function AboutSection() {
             <div className="relative">
               <div className="absolute inset-0 bg-[#0B2428] transform translate-x-4 translate-y-4 rounded-sm"></div>
               <img 
-                src="https://picsum.photos/seed/aboutessence/1000/1000" 
+                src="/about.png" 
                 alt="Brand Essence" 
                 className="relative z-10 w-full h-auto object-cover rounded-sm shadow-xl"
               />

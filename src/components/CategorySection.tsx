@@ -2,17 +2,17 @@ const categories = [
   {
     title: 'Cosmetics',
     description: 'Radiant beauty essentials.',
-    image: 'https://picsum.photos/seed/cosmetics/800/800',
+    image: '/cat_cosmetics.png',
   },
   {
     title: 'Jewellery',
     description: 'Timeless luxury pieces.',
-    image: 'https://picsum.photos/seed/jewellery/800/800',
+    image: '/cat_jewellery.png',
   },
   {
     title: 'Clothing',
     description: 'Premium everyday wear.',
-    image: 'https://picsum.photos/seed/clothing/800/800',
+    image: '/cat_clothing.png',
   }
 ];
 

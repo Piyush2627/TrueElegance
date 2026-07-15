@@ -14,7 +14,7 @@ export const products: Product[] = [
     category: 'Cosmetics',
     price: 1999.00,
     rating: 4.8,
-    image: 'https://picsum.photos/seed/lipstick/800/800'
+    image: '/prod_lipstick.png'
   },
   {
     id: 'c2',
@@ -22,7 +22,7 @@ export const products: Product[] = [
     category: 'Cosmetics',
     price: 4500.00,
     rating: 4.9,
-    image: 'https://picsum.photos/seed/faceserum/800/800'
+    image: '/prod_serum.png'
   },
   {
     id: 'c3',
@@ -30,7 +30,7 @@ export const products: Product[] = [
     category: 'Cosmetics',
     price: 8500.00,
     rating: 4.7,
-    image: 'https://picsum.photos/seed/perfume/800/800'
+    image: '/prod_perfume.png'
   },
   {
     id: 'j1',
@@ -38,7 +38,7 @@ export const products: Product[] = [
     category: 'Jewellery',
     price: 45000.00,
     rating: 4.9,
-    image: 'https://picsum.photos/seed/goldnecklace/800/800'
+    image: '/prod_necklace.png'
   },
   {
     id: 'j2',
@@ -46,7 +46,7 @@ export const products: Product[] = [
     category: 'Jewellery',
     price: 125000.00,
     rating: 5.0,
-    image: 'https://picsum.photos/seed/diamondring/800/800'
+    image: '/prod_ring.png'
   },
   {
     id: 'j3',
@@ -54,7 +54,7 @@ export const products: Product[] = [
     category: 'Jewellery',
     price: 15000.00,
     rating: 4.6,
-    image: 'https://picsum.photos/seed/silverbracelet/800/800'
+    image: '/prod_bracelet.png'
   },
   {
     id: 'cl1',
@@ -62,7 +62,7 @@ export const products: Product[] = [
     category: 'Clothing',
     price: 12999.00,
     rating: 4.8,
-    image: 'https://picsum.photos/seed/silkdress/800/800'
+    image: '/prod_dress.png'
   },
   {
     id: 'cl2',
@@ -70,7 +70,7 @@ export const products: Product[] = [
     category: 'Clothing',
     price: 4999.00,
     rating: 4.5,
-    image: 'https://picsum.photos/seed/linenshirt/800/800'
+    image: '/prod_shirt.png'
   },
   {
     id: 'cl3',
@@ -78,6 +78,6 @@ export const products: Product[] = [
     category: 'Clothing',
     price: 5999.00,
     rating: 4.7,
-    image: 'https://picsum.photos/seed/hoodie/800/800'
+    image: '/prod_hoodie.png'
   }
 ];
