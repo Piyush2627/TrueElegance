@@ -20,7 +20,11 @@ export default function FeaturedProducts() {
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
           {products.map((product) => (
-            <div key={product.id} className="group relative bg-white flex flex-col">
+            <div 
+              key={product.id} 
+              className="group relative bg-white flex flex-col cursor-pointer"
+              onClick={() => handleWhatsAppOrder(product)}
+            >
               {/* Image Container */}
               <div className="relative aspect-[4/5] overflow-hidden bg-gray-100 mb-6">
                 <img 
