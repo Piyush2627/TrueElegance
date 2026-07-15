@@ -4,6 +4,7 @@ import CategorySection from './components/CategorySection';
 import FeaturedProducts from './components/FeaturedProducts';
 import PromoBanner from './components/PromoBanner';
 import AboutSection from './components/AboutSection';
+import FounderSection from './components/FounderSection';
 import Testimonials from './components/Testimonials';
 import Newsletter from './components/Newsletter';
 import Footer from './components/Footer';
@@ -19,6 +20,7 @@ function App() {
         <FeaturedProducts />
         <PromoBanner />
         <AboutSection />
+        <FounderSection />
         <Testimonials />
         <Newsletter />
       </main>
