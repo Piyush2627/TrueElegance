@@ -4,9 +4,9 @@ export default function Footer() {
   return (
     <footer className="bg-[#0B2428] text-[#CD8E63] pt-16 pb-8 border-t border-[#113238]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10">
           
-          <div className="col-span-1 md:col-span-1">
+          <div className="lg:col-span-1">
             <div className="text-left mb-6">
               <img src="/logo1.jpg" alt="True Elegance" className="h-20 w-auto object-contain rounded-md" />
             </div>
@@ -27,11 +27,28 @@ export default function Footer() {
               </li>
               <li className="flex flex-col">
                 <span className="text-[#E8AD85] font-semibold mb-1">Email:</span>
-                <a href="mailto:Trueelegance009@gmail.com" className="hover:text-[#E8AD85] transition-colors">Trueelegance009@gmail.com</a>
+                <a href="mailto:Trueelegance009@gmail.com" className="hover:text-[#E8AD85] transition-colors break-words">Trueelegance009@gmail.com</a>
               </li>
               <li className="flex flex-col">
                 <span className="text-[#E8AD85] font-semibold mb-1">WhatsApp:</span>
                 <a href="https://wa.me/917038689547" className="hover:text-[#E8AD85] transition-colors">+91 7038689547</a>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 className="font-serif font-semibold text-lg mb-4 text-[#E8AD85]">Payment Details</h4>
+            <ul className="space-y-3 text-sm text-[#CD8E63]/80">
+              <li className="flex flex-col">
+                <span className="text-[#E8AD85] font-semibold mb-1">Bank Transfer:</span>
+                <span className="font-mono text-xs">IFSC: KKBK0001767</span>
+                <span className="font-mono text-xs">A/C: 7038689547</span>
+              </li>
+              <li className="mt-4">
+                <span className="text-[#E8AD85] font-semibold mb-2 block">UPI Payment:</span>
+                <div className="bg-white p-2 inline-block rounded-md shadow-lg border border-[#CD8E63]/30">
+                  <img src="/phonepe_qr.png" alt="PhonePe QR Code" className="w-24 h-24 object-cover" />
+                </div>
               </li>
             </ul>
           </div>

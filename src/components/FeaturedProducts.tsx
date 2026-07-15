@@ -1,7 +1,12 @@
 import { Heart, Star } from 'lucide-react';
-import { products } from '../data/products';
+import { products, Product } from '../data/products';
 
 export default function FeaturedProducts() {
+  const handleWhatsAppOrder = (product: Product) => {
+    const message = `Hello True Elegance! I would like to place an order for the following product:\n\n*Product*: ${product.name}\n*Category*: ${product.category}\n*Price*: ₹${product.price.toFixed(2)}\n\nPlease let me know the payment and delivery details.`;
+    const whatsappUrl = `https://wa.me/917038689547?text=${encodeURIComponent(message)}`;
+    window.open(whatsappUrl, '_blank');
+  };
   return (
     <section className="py-24 bg-white" id="products">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -26,10 +31,16 @@ export default function FeaturedProducts() {
                 <button className="absolute top-4 right-4 p-2 bg-white/80 backdrop-blur-sm rounded-full text-gray-500 hover:text-red-500 hover:bg-white transition-colors duration-300 opacity-0 group-hover:opacity-100 shadow-sm">
                   <Heart size={20} />
                 </button>
-                {/* Add to Cart Overlay */}
+                {/* WhatsApp Order Overlay */}
                 <div className="absolute inset-x-0 bottom-0 p-4 opacity-0 group-hover:opacity-100 translate-y-4 group-hover:translate-y-0 transition-all duration-300">
-                  <button className="w-full bg-[#0B2428]/95 backdrop-blur-sm text-[#CD8E63] py-3 font-semibold text-sm uppercase tracking-wider hover:bg-[#0B2428] transition-colors shadow-lg">
-                    Add to Cart
+                  <button 
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      handleWhatsAppOrder(product);
+                    }}
+                    className="w-full bg-[#0B2428]/95 backdrop-blur-sm text-[#CD8E63] py-3 font-semibold text-sm uppercase tracking-wider hover:bg-[#0B2428] transition-colors shadow-lg"
+                  >
+                    Order on WhatsApp
                   </button>
                 </div>
               </div>
