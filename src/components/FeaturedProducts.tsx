@@ -1,5 +1,5 @@
 import { Heart, Star } from 'lucide-react';
-import { products, Product } from '../data/products';
+import { products, type Product } from '../data/products';
 
 export default function FeaturedProducts() {
   const handleWhatsAppOrder = (product: Product) => {
